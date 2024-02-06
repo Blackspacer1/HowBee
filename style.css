@@ -1,0 +1,57 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+body{
+    color: black;
+background-color: rgb(37, 80, 66);
+}
+.box1{
+    background-color: aqua;
+    height: 100vh;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid pink;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(8, 223, 223);
+    padding: 2rem;
+    box-sizing: border-box;
+    height: fit-content;
+    border-radius: 0.5rem;
+}
+
+.form input {
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    font-size: 1rem;
+    height: 1.5rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.form input[type="submit"] {
+    background-color: #3498db; /* Default button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+.form input[type="submit"]:hover {
+    background-color: #1f96e5; /* Darker shade on hover */
+}
